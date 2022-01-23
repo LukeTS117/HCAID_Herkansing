@@ -55,15 +55,15 @@ function displayHtml(prediction, type){
     for(let i = 0; i < prediction.length; i++){
         if(prediction[i] === 1){
             if(i === 0){
-                document.getElementById(type).innerHTML = "Your " + type + "is extremely severe! We advise you to get help immediately!" 
+                document.getElementById(type).innerHTML = "Your " + type + " is extremely severe! We advise you to get help immediately!" 
             } else if(i === 1){ 
-                document.getElementById(type).innerHTML = "Your " + type + "is mild. We advise you to check out the tools we provided at the starting screen " + type
+                document.getElementById(type).innerHTML = "Your " + type + " is mild. We advise you to check out the tools we provided at the starting screen " + type
             } else if(i === 2){
-                document.getElementById(type).innerHTML = "Your " + type + "is moderate. We advise you to check out the tools we provided at the starting screen " + type
+                document.getElementById(type).innerHTML = "Your " + type + " is moderate. We advise you to check out the tools we provided at the starting screen " + type
             } else if(i === 3){
-                document.getElementById(type).innerHTML = "Your " + type + "is normal or not existing. We still advise you to check out the tools incase of a " + type + "response to events in your life"
+                document.getElementById(type).innerHTML = "Your " + type + " is normal or not existing. We still advise you to check out the tools incase of a " + type + "response to events in your life"
             } else {
-                document.getElementById(type).innerHTML = "Your " + type + "is severe! We advise you to get professional help with your " + type
+                document.getElementById(type).innerHTML = "Your " + type + " is severe! We advise you to get professional help with your " + type
             }
         }
     }
